@@ -1,7 +1,28 @@
 {
-  "name": "pcreactlibrary",
+  "name": "@ivonneruiz/pcreactlibrary",
   "version": "0.1.0",
-  "private": true,
+  "description": "testing library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivonneruiz/pcreactlibrary.git"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "keywords": [
+    "example",
+    "packkage",
+    "node",
+    "npm",
+	"react"
+  ],
+  "author": "Ivonne Ruiz <ivonne.icc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivonneruiz/pcreactlibrary/issues"
+  },
+  "homepage": "https://github.com/ivonneruiz/pcreactlibrary#readme",
   "dependencies": {
     "@material-ui/icons": "^1.0.0-beta.43",
     "material-ui": "^1.0.0-beta.44",

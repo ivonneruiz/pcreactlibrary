@@ -15,7 +15,7 @@
     "packkage",
     "node",
     "npm",
-	"react"
+    "react"
   ],
   "author": "Ivonne Ruiz <ivonne.icc@gmail.com>",
   "license": "ISC",
@@ -35,6 +35,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepublish": "babel --plugins transform-react-jsx src/ -d build/"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
